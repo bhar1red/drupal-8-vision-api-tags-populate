@@ -1,0 +1,5 @@
+services:
+  bio_image_migration.commands:
+    class: \Drupal\bio_image_migration\Commands\MigrateImages
+    tags:
+      - { name: drush.command }
